@@ -6,7 +6,7 @@ This is my GitHub profile where I share my projects so you can take a look to my
 
 💻🖱️... Some of the technologies I use: 
 
-⭐ Frontend: HTML | CSS | Javascript | React | Redux | Jest | SASS | BEM | Typescript
+⭐ Frontend: HTML | CSS | Javascript | React | Jest | SASS | BEM | Typescript
 
 ⭐ Backend: NodeJS | ExpressJS | MongoDB | Mongoose | PostManT | API Restful
 
@@ -19,7 +19,7 @@ https://carloszapata91.github.io/#!
 
 You can reach me at:
 
-[![Carlos Zapata Dev](https://i.ibb.co/8P4xTm2/banner.png)](https://carloszapata91.github.io/#!)
+[![Carlos Zapata Dev](https://carloszapata91.github.io/#!)
 
 [![Linkedin media logo](https://i.ibb.co/YpgsDZK/4584660-linkedin-logo-media-network-social-icon-1.png)](https://www.linkedin.com/in/lola-rufino/) [![Twitter media logo](https://i.ibb.co/NYdy5v5/4584662-logo-media-network-social-twitter-icon.png)](https://twitter.com/lolarufino) [![Flickr media logo](https://i.ibb.co/XtjwGpd/4584657-flickr-logo-media-network-social-icon.png)](https://www.flickr.com/photos/lolarufino/)
 
