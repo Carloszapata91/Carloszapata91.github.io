@@ -23,4 +23,4 @@ You can reach me at:
 
 Or send me an e-mail to: 📫 carloszapata91@gmail.com 
 
-![Pusheen programming happy](https://i.ibb.co/92FHL4d/pusheencode.gif)
+
