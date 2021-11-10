@@ -19,7 +19,7 @@ You can reach me at:
 
 [Carlos Zapata Dev](https://carloszapata91.github.io/#!)
 
-[![Linkedin media logo](https://i.ibb.co/YpgsDZK/4584660-linkedin-logo-media-network-social-icon-1.png)](https://www.linkedin.com/in/lola-rufino/) [![Twitter media logo](https://i.ibb.co/NYdy5v5/4584662-logo-media-network-social-twitter-icon.png)](https://twitter.com/lolarufino) [![Flickr media logo](https://i.ibb.co/XtjwGpd/4584657-flickr-logo-media-network-social-icon.png)](https://www.flickr.com/photos/lolarufino/)
+[![Linkedin media logo](https://i.ibb.co/YpgsDZK/4584660-linkedin-logo-media-network-social-icon-1.png)](http://www.linkedin.com/in/carlos-mario-zapata-lopez) [![Twitter media logo](https://i.ibb.co/NYdy5v5/4584662-logo-media-network-social-twitter-icon.png)](https://twitter.com/lolarufino) 
 
 Or send me an e-mail to: 📫 carloszapata91@gmail.com 
 
