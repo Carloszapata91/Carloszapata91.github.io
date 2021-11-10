@@ -1,6 +1,6 @@
 ![Header](https://i.ibb.co/Qv5xMym/header.png)
 
-I am Carlos! I went from Chemical Engineer to web developer, deciding to mix chemical science and programming.
+I am Carlos! I live in Medellin, Colombia and I went from Chemical Engineer to web developer, deciding to mix chemical science and programming.
 
 This is my GitHub profile where I share my projects so you can take a look to my code and to what I've been creating.
 
