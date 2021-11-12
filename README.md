@@ -1,6 +1,6 @@
 ![Header](https://i.ibb.co/Qv5xMym/header.png)
 
-I am Carlos! I live in Medellin, Colombia and I went from Chemical Engineer to web developer, deciding to mix chemical science and programming.
+I am Carlos! I live in Medellin, Colombia and I went from Chemical Engineering to web development, deciding to mix chemical science and programming.
 
 This is my GitHub profile where I share my projects so you can take a look to my code and to what I've been creating.
 
@@ -8,7 +8,7 @@ This is my GitHub profile where I share my projects so you can take a look to my
 
 ⭐ Frontend: HTML | CSS | Javascript | React | Jest | SASS | BEM | Typescript
 
-⭐ Backend: NodeJS | ExpressJS | MongoDB | Mongoose | PostManT | API Restful
+⭐ Backend: NodeJS | ExpressJS | MongoDB | Mongoose | PostMan | API Restful
 
 ⭐ Other technologies: Git | GitHub | Trello | Slack | Excalidraw | Figma
 
