@@ -6,7 +6,7 @@
 
     100% Free To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDITs AND TELL YOUR FRIENDS ABOUT US
-   
+
     ========================================================  */
 
 /* =============================================================
@@ -107,14 +107,14 @@ border-radius: 0px!important;
     min-height:790px;
 }
 
-#home-sec .main-img {    
+#home-sec .main-img {
     max-height:200px;
     /* border:5px solid rgb(255, 15, 101); */
-    content:url('../img/foto.jpeg');  /*SAD IMAGE URL  - LEFT SIDE IMAGE*/
+    content:url('../img/foto.jpg');  /*SAD IMAGE URL  - LEFT SIDE IMAGE*/
     cursor:pointer;
 }
 #home-sec .main-img:hover {
-    content:url('../img/js-logo.jpg'); /*SIMLE IMAGE URL ON HOVER - LEFT SIDE IMAGE*/
+    content:url('../img/cz-logo.jpg'); /*SIMLE IMAGE URL ON HOVER - LEFT SIDE IMAGE*/
     cursor:pointer;
 }
 #home-sec a,#home a:hover {
@@ -123,14 +123,14 @@ border-radius: 0px!important;
 #home-sec .main-img-2 {
     max-height:200px;
     /* border:5px solid rgb(255, 15, 101); */
-    content:url('../img/js-logo.jpg');  /*SMILE IMAGE URL  - RIGHT SIDE IMAGE*/
+    content:url('../img/cz-logo.jpg');  /*SMILE IMAGE URL  - RIGHT SIDE IMAGE*/
     cursor:pointer;
 }
 #home-sec .main-img-2:hover {
-    content:url('../img/foto.jpeg');  /*SAD IMAGE URL ON HOVER - RIGHT SIDE IMAGE*/
+    content:url('../img/foto.jpg');  /*SAD IMAGE URL ON HOVER - RIGHT SIDE IMAGE*/
     cursor:pointer;
 }
- 
+
 
 #home-sec h1 {
 font-weight: 900;
@@ -175,8 +175,8 @@ cursor: pointer;
     /* =============================================================
   ABOUT SECTION STYLES
  ============================================================ */
-    
-   
+
+
 #about-sec .social-icon {
     padding:10px 0px 30px 0px;
 }
@@ -193,7 +193,7 @@ font-weight: 600;
 color:rgb(255, 15, 101);
 }
    #skill-sec {
-    
+
     background: url(../img/skill.jpg) no-repeat center center;
 padding: 0;
 -webkit-background-size: cover;
@@ -361,7 +361,7 @@ span.round-tabs.five{
     border: 5px solid transparent;
     border-bottom-color: rgb(255, 15, 101)!important;
     transition:0.1s ease-in-out;
-    
+
 }
 .board li.active:after {
     content: " ";
@@ -372,7 +372,7 @@ span.round-tabs.five{
     bottom: 0px;
     border: 10px solid transparent;
     border-bottom-color: #ddd;
-    
+
 }
 .nav-tabs > li a{
    width: 70px;
@@ -409,7 +409,7 @@ padding-top: 25px;
 }
 
 @media( max-width : 585px ){
-    
+
     .board {
 width: 90%;
 height:auto !important;
@@ -442,12 +442,12 @@ left: 35%;
 
 
   /*=====================================
-  TESTIMONIALS STYLES 
+  TESTIMONIALS STYLES
     ===================================*/
 
 
 #testimonial-main {
-    
+
     background: url(../img/testi.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
@@ -475,7 +475,7 @@ left: 35%;
         margin:20px 0px 30px 0px;
         height: 10px;
         border-top: 0;
-        border-radius: 5px; 
+        border-radius: 5px;
         background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
         background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
         background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
@@ -484,7 +484,7 @@ left: 35%;
     } */
 
     /*=====================================
-  PORTFOLIO STYLES 
+  PORTFOLIO STYLES
     ===================================*/
 
 #portfolio-sec {
@@ -572,10 +572,10 @@ left: 35%;
 }
 
   /*=====================================
-  HIRE STYLES 
+  HIRE STYLES
     ===================================*/
   #hire-sec {
-    
+
     /* background: url(../img/hire.jpg) no-repeat center center; */
     background: url(https://epicalegis.es/wp-content/uploads/2017/06/keyboard-2098301_960_720.jpg) no-repeat center center;
     padding: 0;
@@ -601,7 +601,7 @@ left: 35%;
 }
 
 /*=====================================
-  FOOTER STYLES 
+  FOOTER STYLES
     ===================================*/
 #footer-sec h3{
     color: rgb(255, 15, 101);
@@ -611,7 +611,7 @@ left: 35%;
     margin-right:10px;
 }
  /*=====================================
-  SCROLLUP STYLES 
+  SCROLLUP STYLES
     ===================================*/
 a.scrollup {
 background: rgb(255, 15, 101);
