@@ -1,481 +1,468 @@
-<!DOCTYPE html>
-<html lang="es">
-
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlos Zapata López</title>
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
-    <!-- STYLES CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title> Carlos Zapata López </title>
+    <link rel="shortcut icon" href="assets/img/icono.png" />
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- ANIMATE  CSS -->
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <!-- Style main-->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!--PINK STYLE VERSION IS BY DEFAULT, USE ANY ONE STYLESHEET FROM FOUR STYLESHEETS (pink,green,blue and brown) HERE-->
+    <link href="assets/css/themes/grey.css" id="mainCSS" rel="stylesheet" />
+    <!-- GOOGLE FONTS -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' /> -->
 
 </head>
-
 <body>
-    <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                    data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarExample01">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Conocimientos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contáctame</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Navbar -->
 
-        <!-- Background image -->
-        <div class="p-5 text-center bg-image">
-            <div class="mask">
-                <div class="d-flex justify-content-center align-items-center h-100">
-                    <div class="text-white">
-                        <h1 class="mb-3">Carlos Zapata López</h1>
-                        <a class="btn btn-outline-light btn-lg">Desarrollador Web</a>
-                        <a class="btn btn-outline-light btn-lg">Ingeniero Químico</a>
-                        <a class="btn btn-outline-light btn-lg">Docente</a>
+    <div id="home-sec">
+        <div class="overlay">
+            <div class="container">
+                <div class="row pad-top-bottom  move-me">
+                    <div class="col-lg-5 col-md-5 col-sm-5 text-center">
+                        <img src="assets/img/foto.jpg" class="main-img img-circle wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s" alt=""/>
+                        <h1 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">CARLOS ZAPATA L&Oacute;PEZ</h1>
+                        <h2 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".6s">
+                            <div class="dialog"></div>
+                        </h2>
+                        <!-- <a href="#about-sec" class="btn custom-btn-one btn-lg wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".8s">EXPLORE MYSELF</a> -->
+                    </div>
+
+                    <div class="col-lg-2 col-md-2 col-sm-2 text-center  ">
+                        <a href="#about-sec" class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".1s">
+                            <i class="fa fa-info icon-round icon-round-active"></i>
+                            <h3 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s">ACERCA DE MI</h3>
+                        </a>
+                        <a href="#resume-sec" class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".3s">
+                            <i class="fa fa-briefcase icon-round"></i>
+                            <h3 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">RESUMEN</h3>
+                        </a>
+                        <a href="#portfolio-sec" class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".5s">
+                            <i class="fa fa-recycle icon-round icon-round-active"></i>
+                            <h3 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".6s">MIS PROYECTOS </h3>
+                        </a>
+                        <a href="#hire-sec" class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".7s">
+                            <i class="fa fa-paper-plane-o icon-round"></i>
+                            <h3 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".8s">CONTACTO</h3>
+                        </a>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 text-center">
+                        <img src="assets/img/cz-logo.jpg" class="main-img-2 img-circle wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s" alt="">
+                        <h1 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">JUNIOR<br>BACKEND DEVELOPER</h1><br>
+                        <!-- <h2 class="wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".6s">Programador<br>Junior</h2> -->
+                        <a href="#resume-sec" class="btn custom-btn-one btn-lg wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".8s">HOJA DE VIDA</a>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- Background image -->
-    </header>
-
-    <!-- Description -->
-
-    <div class="container description">
-        <div class="row">
-            <div class="col-md info">
-                <h2>Mi perfil profesional</h2>
-                <p>Soy ingeniero químico y desarrollador web, apasionado por la enseñanza y el aprendizaje continuo. Estoy en proceso de mejorar mis conocimientos como desarrollador web backend con Python (Django y flask),
-                  stack MERN (MongoDB, ExpressJS, React, NodeJS) y desarrollo frontend con JavaScript (HTML, CSS y Angular).</p>
-                <button class="btn btn-primary" href=\"HdV.pdf\"><a href="https://www.dropbox.com/s/zbgsdnlvoqo20gr/Curriculum%20Carlos%20Zapata%20Lopez.pdf?dl=0" target="_blank">  Ver hoja de vida </a></button>
-                <!-- <button class="btn btn-primary" href=\"HdV.pdf\"><a href="https://www.dropbox.com/s/nqec2ftp8fupqyy/EF%20SET%20Certificate.pdf?dl=0">  Ver Ingles </a></button> -->
-                <button class="btn btn-primary" href=\"HdV.pdf\"><a href="https://github.com/Carloszapata91" target="_blank">  Mi sitio en GitHub </a></button>
-
-            </div>
-            <div class="col-md img">
-                <img src="img/01.png" alt="">
-            </div>
-        </div>
-    </div>
-
-    <!-- Skills -->
-    <div class="container skills" >
-        <div class="row">
-            <h2 class="t-cen mar-bot mar-top">Conocimientos en desarrollo web</h2>
-            <div class="col-md">
-                <div class="skill">
-                    <h6>PYTHON 3</h6>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">
-                            95%
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <h6>JavaScript</h6>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">
-                            90%
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <h6>CSS3</h6>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">
-                            65%
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md">
-                <div class="skill">
-                    <h6>Django</h6>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">
-                            80%
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <h6>Node Js</h6>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">
-                            90%
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <h6>Angular</h6>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">
-                            65%
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md">
-                <div class="skill">
-                    <h6>Flask</h6>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">
-                            80%
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <h6>Bootstrap</h6>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">
-                            65%
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <h6>HTML5</h6>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">
-                            75%
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Idiomas -->
-    <div class="container skills">
-        <div class="row">
-            <h2 class="t-cen mar-bot mar-top">Idiomas</h2>
-            <div class="col-md">
-                <div class="skill">
-                    <h6>Inglés (Nivel Intermedio) <a style="color:gray" href="https://www.dropbox.com/s/nqec2ftp8fupqyy/EF%20SET%20Certificate.pdf?dl=0" target="_blank">  ***Ver Certificado*** </a></h6>
-                    <div class="progress">  <!--<a href="https://www.dropbox.com/s/nqec2ftp8fupqyy/EF%20SET%20Certificate.pdf?dl=0">  Ver Ingles </a> -->
-                        <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">
-                            65%
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-md">
-                <div class="skill">
-                    <h6>Español (Lengua materna)</h6>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">
-                            100%
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             </div>
         </div>
     </div>
-
-    <!-- Formacion -->
-
-    <div class="container experiencia">
-        <h2 class="t-cen mar-bot mar-top">Educación y formación</h2>
-        <div class="accordion accordion-flush" id="accordionExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-
-                    <button class="accordion-button" type="button" data-mdb-toggle="collapse"
-                        data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-
-                        <img src="img/01.png" class="rounded-circle" height="25" alt="" loading="lazy" />
-                        Desarrollo web
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                    data-mdb-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>Desarrollador Back-End.</strong> 2021. Participante del programa MisionTIC 2022
-                        en la Universidad Pontificia Bolivariana (Medellin), con profundización en Desarrollo Web
-                        en el Stack MERN, Java Script, CSS5, HTML5. Autodidacta en <strong>Python3, Django y Flask.
-                        </strong> Con conocimientos en bases de datos relacionales (MySQL). Habituado al trabajo
-                        colaborativo aplicando <strong> Metodologias de trabajo agil (Scrum)</strong>.
+    <!-- HOME SECTION END-->
+    <section id="about-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s">
+                    <h1>MI PERFIL PROFESIONAL </h1>
+                    <div class="color-strip"></div>
+                    <div class="social-icon" style="margin-top: -20px;">
+                        <!-- <a href="#">
+                            <img src="assets/img/Social/twitter.png" alt=""></a> -->
+                        <a href="https://github.com/Carloszapata91" target="_blank">
+                            <img src="assets/img/Social/github.png" alt=""></a>
+                        <a href="https://www.youtube.com/channel/UCZLhhZwa69_7VXO6uBNIksw/featured" target="_blank">
+                            <img src="assets/img/Social/youtube.png" alt=""></a>
                     </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">
+                    <p>
+                      Soy ingeniero químico y desarrollador web backend. Estoy en proceso de mejorar mis
+                      conocimientos como <b>desarrollador web backend con Python (Django y flask)</b>, stack MERN (MongoDB, ExpressJS, React, NodeJS) y
+                      desarrollo frontend con JavaScript (HTML, CSS y Angular). Con conocimientos en Java y en bases de datos relacionales (SQL). Habituado al
+                      trabajo colaborativo aplicando Metodologias de trabajo agil (Scrum).
+                      Actualmente, continuo formandome en el programa
+                      <a href="https://www.misiontic2022.gov.co/portal/" target="_blank">Misi&oacute;n TIC 2022</a> en la Universidad
+                        Pontificia Bolivariana, donde he podido ampliar mis habilidades en programaci&oacute;n y en desarrollo web.
+                    </p>
+                    <p>
+                      Adem&aacute;s, soy apasionado por la enseñanza y el aprendizaje continuo, con estudios en <b>pedagogia</b> para profesionales
+                      no licenciados (UPB-2021). Me describo como un profesional con alma de ingeniero que le gusta afrontar retos que pongan a prueba
+                      mis conocimientos y destrezas. Estoy acostumbrado a la formaci&oacute;n autodidacta para crecer tanto en el saber como en el ser.
+                    </p>
                 </div>
             </div>
 
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
-                        data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <img src="img/profesor.png" class="rounded-circle" height="25" alt="" loading="lazy" />
-                        Pedagogía
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-mdb-parent="#accordionExample">
-                    <div class="accordion-body">
-                        Estudios de <strong> Pedagogía para profesionales no licenciados</strong>, 2021,
-                        Universidad Pontificia Bolivariana (Medellin). Programa con énfasis en corrientes
-                        pedagogías contemporáneas y <strong> pedagogías disruptivas</strong>.
-                    </div>
-                </div>
-            </div>
 
-            <div class="accordion-item" >
-                <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
-                        data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <img src="img/iquimica.png" class="rounded-circle" height="25" alt="" loading="lazy" />
-                        Grado en Ingeniería Química
-                    </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                    data-mdb-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>Ingeniero químico.</strong> 2017. Estudios en Ingeniería química en la Universidad de
-                        Oviedo (Asturias, España). Énfasis en <strong> bioprocesos industriales</strong>, y
-                        tratamiento y recuperación de residuos.
+
+        </div>
+    </section>
+    <!-- ABOUT SECTION END-->
+    <section id="testimonial-main">
+        <div class="overlay">
+            <div class="container">
+                <div class="row pad-top-bottom move-me">
+
+                    <div class="col-lg-2 col-md-2 col-sm-2 text-center wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s">
+                        <!-- <span class="chart" data-percent="75">
+                            <span class="percent"></span>
+                        </span> -->
+                        <img src="assets/img/html-logo.png" width="150px" style="padding-top: 20px;">
+                        <h4>HTML</h4>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 text-center wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">
+                        <!-- <span class="chart" data-percent="80">
+                            <span class="percent"></span>
+                        </span> -->
+                        <img src="assets/img/css-logo.png" width="200px" style="margin-bottom: -20px; margin-left: -20px;">
+
+                        <h4>CSS </h4>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 text-center  wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".6s">
+                        <img src="assets/img/python-logo.png" width="180px" style="margin-bottom: -20px; margin-left: -10px; padding-top: 20px;">
+                        <h4>PYTHON </h4>
+                    </div>
+
+                    <div class="col-lg-2 col-md-2 col-sm-2 text-center wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".8s">
+                        <img src="assets/img/django-logo.png" width="150px" style="padding-top: 20px;">
+                        <h4>DJANGO</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4  wow bounceIn animated" data-wow-duration="1s" data-wow-delay="1s">
+                        <h1>MIS HABILIDADES</h1>
+                        <p>
+                            - Programaci&oacute;n web con Python, Flask y Django<br>
+                            - Gesti&oacute;n de bases de datos relacionales SQL<br>
+                            - Desarrollo web con HTML5 y CSS3<br>
+                            - Manejo de Repositorios con Git y Github<br>
+                            - Metodologias ágiles de trabajo: SCRUM
+                            <br>
+                            🌟 Aprendiendo Java <br>
+                            📚 Mejorando conocimientos en Java Script
+
+
+                        </p>
+                        <!-- <a href="#resume-sec" class="btn btn-style-two btn-lg">DESCARGAR HV (.pdf )</a> -->
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <br>
-    <br>
-    <!-- Portafolio -->
-<!--
-    <div class="container portafolio">
-        <div class="row">
-            <h2 class="t-cen mar-bot mar-top">Proyectos</h2>
-            <div class="col-md">
-                <div class="card">
-                    <img src="img/temp_01.jpeg" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <p class="card-text">
-                            Some quick emple text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-                    </div>
+    </section>
+    <!-- SKILL SECTION END-->
+    <section id="resume-sec">
+        <div class="container">
+            <div class="row  move-me">
+                <div class="col-lg-4 col-md-4 col-sm-4 wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s">
+                    <h1>DESCARGAR </h1>
+                    <h1>HOJA DE VIDA</h1>
+                    <div class="color-strip"></div>
+                    <a href="https://www.dropbox.com/s/zbgsdnlvoqo20gr/Curriculum%20Carlos%20Zapata%20Lopez.pdf?dl=0" target="_blank" class="btn btn-style-three ">HV - Carlos Zapata López (.pdf)</a>
                 </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">
 
-                <div class="card">
-                    <img src="img/temp_02.jpeg" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-                    </div>
-                </div>
-            </div>
+                    <div class="board">
+                        <div class="board-inner">
+                            <ul class="nav nav-tabs" id="myTab">
+                                <li class="active">
+                                    <a href="#home" data-toggle="tab" title="Informacion Personal">
+                                        <span class="round-tabs one">
+                                            <i class="fa fa-home"></i>
+                                        </span>
+                                    </a></li>
 
-            <div class="col-md">
-                <div class="card">
-                    <img src="img/temp_03.jpeg" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-                    </div>
-                </div>
+                                <li><a href="#profile" data-toggle="tab" title="Perfil Educativo">
+                                    <span class="round-tabs two">
+                                        <i class="fa fa-briefcase"></i>
+                                    </span>
+                                </a>
+                                </li>
+                                <li><a href="#exp" data-toggle="tab" title="Formacion profesional">
+                                    <span class="round-tabs three">
+                                        <i class="fa fa-recycle"></i>
+                                    </span></a>
+                                </li>
 
-                <div class="card">
-                    <img src="img/temp_04.jpeg" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-                    </div>
-                </div>
-            </div>
+                                <li><a href="#location" data-toggle="tab" title="Idiomas">
+                                    <span class="round-tabs four">
+                                        <i class="fa fa-paper-plane-o"></i>
+                                    </span>
+                                </a></li>
 
-            <div class="col-md">
-                <div class="card">
-                    <img src="img/temp_05.jpeg" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-                    </div>
-                </div>
+                                <li><a href="#contact" data-toggle="tab" title="Informacion de Contacto">
+                                    <span class="round-tabs five">
+                                        <i class="fa fa-comments-o"></i>
+                                    </span></a>
+                                </li>
 
-                <div class="card">
-                    <img src="img/temp_06.jpeg" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-  <!-- Videos -->
-<!--
-    <div class="container videos">
-        <h2 class="t-cen mar-bot mar-top">Videos</h2>
-
-        <div class="row">
-            <div class="col-md">
-                <iframe class="shadow-4" src="https://www.youtube.com/embed/unJMivymma4" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="col-md">
-                <iframe class="shadow-4" src="https://www.youtube.com/embed/ukvz4KIy-_M" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="col-md">
-                <iframe class="shadow-4" src="https://www.youtube.com/embed/VxZjLDLI1Ng" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
--->
-    <footer class="bg-dark text-center text-white">
-        <!-- Grid container -->
-        <div class="container p-4">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://facebook.com/CarlosZapata91" role="button"><i
-                        class="fab fa-facebook-f"></i></a>
-
-                <!-- Twitter -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-twitter"></i></a>
-
-                <!-- Google -->
-                <a class="btn btn-outline-light btn-floating m-1" href="mailto:carloszapata91@gmail.com" role="button"><i
-                        class="fab fa-google"></i></a>
-
-                <!-- Instagram -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-instagram"></i></a>
-
-                <!-- Linkedin -->
-                <a class="btn btn-outline-light btn-floating m-1" href="http://www.linkedin.com/in/carlos-zapata-lopez" role="button"><i
-                        class="fab fa-linkedin-in"></i></a>
-
-                <!-- Github -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Carloszapata91" role="button"><i
-                        class="fab fa-github"></i></a>
-            </section>
-            <!-- Section: Social media -->
-
-            <!-- Section: Form -->
-            <section class="">
-                <form action="">
-                    <!--Grid row-->
-                    <div class="row d-flex justify-content-center">
-                        <!--Grid column-->
-                        <div class="col-auto">
-                            <p class="pt-2">
-                                <strong>Comunicate conmigo por teléfono celular</strong>
-                            </p>
+                            </ul>
                         </div>
-                        <!--Grid column-->
 
-                        <!--Grid column-->
-                        <div class="col-md-5 col-12">
-                            <!-- Email input -->
-                            <div class="form-outline form-white mb-4">
-                                <input type="email" id="form5Example21" class="form-control" />
-                                <label class="form-label" for="form5Example21">(+57) 3194171358</label>
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="home">
+
+                                <h4 class="head text-center">INFORMACI&Oacute;N PERSONAL</h4>
+                                <p class="narrow text-center">
+                                    <span>
+                                        <i>NOMBRE : </i>CARLOS ZAPATA L&Oacute;PEZ
+                                    </span>
+                                    <span>
+                                        <i>EDAD :</i>30 AÑOS
+                                    </span>
+                                    <span>
+                                        <i>CIUDAD :</i>MEDELLIN, ANTIOQUIA
+                                    </span>
+                                </p>
+
+
+                            </div>
+                            <div class="tab-pane fade" id="profile">
+
+                                <h4 class="head text-center">FORMACI&Oacute;N EN DESARROLLO WEB</h4>
+                                <p class="narrow text-center">
+                                    <span>
+                                        <i> </i>MISI&Oacute;N TIC 2022 - Universidad Pontificia Bolivariana (800 HORAS)
+                                    </span>
+                                    <span>
+                                        <i>CICLO 1 (200 horas)</i>Programacion en Python
+                                        <br>
+                                        <i>CICLO 2 (200 horas)</i>Programación en orientada a objetos  con JAVA
+                                        <br>
+                                        <i>CICLO 3 (200 horas)</i>Desarrollo de software: JS, CSS, HTML
+                                        <br>
+                                        <i>CICLO 4 (200 horas)</i>Desarrollo web con stack mern
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="exp">
+                                <h4 class="head text-center">FORMACI&Oacute;N PROFESIONAL</h4>
+                                <p class="narrow text-center">
+                                    <span>
+                                        <i>Ingenieria Quimica </i>
+                                        <br>Universidad de Oviedo
+                                        <br>2017<br><br>
+                                        <i>Pegadogia para profesionales no licenciados </i>
+                                        <br>Universidad pontificia bolivariana
+                                        <br>2021
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="location">
+                                <h4 class="head text-center">IDIOMAS</h4>
+                                <p class="narrow text-center">
+                                    <span>
+                                        <i>INGL&Eacute;S : </i>NIVEL INTERMEDIO (B2)
+                                    </span>
+                                    <span>
+                                        <i>  Ver certificado:   </i> <a href="https://www.dropbox.com/s/nqec2ftp8fupqyy/EF%20SET%20Certificate.pdf?dl=0" target="_blank" ">Enlace a Certificado</a>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="contact">
+                                <h4 class="head text-center">CONTACTO</h4>
+
+                                <p class="narrow text-center">
+                                    <span>
+                                        <i>EMAIL :</i>Carloszapata91@gmail.com
+                                    </span>
+                                    <span>
+                                        <i>TELEFONO :</i>+57 319 4171358
+                                    </span>
+                                </p>
                             </div>
                         </div>
-                        <!--Grid column-->
 
-                        <!--Grid column-->
-                        <div class="col-auto">
-                            <!-- Submit button -->
-                            <button class="btn btn-outline-light mb-4" ><a href="mailto:carloszapata91@gmail.com">  CONTACTAR POR EMAIL</a></button>
-                            <button class="btn btn-outline-light mb-4" ><a href="https://api.whatsapp.com/send?phone=+573194171358&text=Hola Carlos, vi tu perfil y quiero contactar contigo!">  CONTACTAR POR WhatsApp</a></button>
-                        </div>
-                        <!--Grid column-->
                     </div>
-                    <!--Grid row-->
-                </form>
-            </section>
-            <!-- Section: Form -->
+                </div>
+            </div>
+    </section>
+    <!-- RESUME SECTION END-->
+    <section id="testimonial-main">
+        <div id="divisor-line"></div>
+    </section>
+    <!-- TESTIMONIAL SECTION END-->
+    <section id="portfolio-sec">
+        <div class="container" >
+            <div class="row text-center wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 text-center">
+                    <h1>PROYECTOS RECIENTES</h1>
+                    <br>
+                </div>
+            </div>
+            <div class="row  wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="portfolio-sec-wrap">
+                        <img class="img-responsive" src="assets/img/portfolio/small/e-buying2.png" alt="" />
+                        <div class="overlay">
+                            <div class="portfolio-sec-inner" style="margin-top: -25px;">
+                                <h3>E-BUYING</h3>
+                                <p>E-commerce con gesti&oacute;n de productos, usuarios, roles y permisos.</p>
+                                <a href="https://www.youtube.com/watch?v=AIR-dW1poyI" target="_blank"><i class="fa fa-eye"></i>Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <!-- Section: Text -->
-          <!--  <section class="mb-4">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-                    repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-                    eum harum corrupti dicta, aliquam sequi voluptate quas.
-                </p>
-            </section> -->
-            <!-- Section: Text -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="portfolio-sec-wrap">
+                        <img class="img-responsive" src="assets/img/portfolio/small/cart.png" alt="" />
+                        <div class="overlay">
+                            <div class="portfolio-sec-inner" style="margin-top: -25px;">
+                                <h3>Vista de añadir al carrito</h3>
+                                <p>Pagina para realizar el pago de los productos seleccionados.</p>
+                                <a href="https://www.youtube.com/watch?v=AIR-dW1poyI" target="_blank"><i class="fa fa-eye"></i>Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="portfolio-sec-wrap">
+                        <img class="img-responsive" src="assets/img/portfolio/small/crud.png" alt="" />
+                        <div class="overlay">
+                            <div class="portfolio-sec-inner">
+                                <h3>Vista del Admin</h3>
+                                <p>CRUD de las tablas correspondientes al proyecto.</p>
+                                <a href="https://www.youtube.com/watch?v=AIR-dW1poyI" target="_blank"><i class="fa fa-eye"></i>Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="portfolio-sec-wrap">
+                        <img class="img-responsive" src="assets/img/portfolio/small/login.png" alt="" />
+                        <div class="overlay">
+                            <div class="portfolio-sec-inner">
+                                <h3>Login or Sing up</h3>
+                                <p>Pagina para iniciar sesi&oacute;n o registrarse.</p>
+                                <a href="https://www.youtube.com/watch?v=AIR-dW1poyI" target="_blank"><i class="fa fa-eye"></i>Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="portfolio-sec-wrap">
+                        <img class="img-responsive" src="assets/img/portfolio/small/5.png" alt="" />
+                        <div class="overlay">
+                            <div class="portfolio-sec-inner">
+                                <h3>Login con Laravel</h3>
+                                <p>Autenticacion con Laravel usando el template AdminLTE3</p>
+                                <a href="https://www.youtube.com/watch?v=nRj4pZ74tU8" target="_blank"><i class="fa fa-eye"></i>Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="portfolio-sec-wrap">
+                        <img class="img-responsive" src="assets/img/portfolio/small/6.png" alt="" />
+                        <div class="overlay">
+                            <div class="portfolio-sec-inner" style="margin-top: -32px;">
+                                <h3>CRUD, Roles y Permisos</h3>
+                                <p style="margin-top: -10px;">Implementaci&oacute;n de un Middleware para validar los permisos del usuario.</p>
+                                <a href="https://www.youtube.com/watch?v=nRj4pZ74tU8" target="_blank" style="margin-top: -10px;"><i class="fa fa-eye"></i>Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="portfolio-sec-wrap">
+                        <img class="img-responsive" src="assets/img/portfolio/small/7.png" alt="" />
+                        <div class="overlay">
+                            <div class="portfolio-sec-inner">
+                                <h3>Login con PHP</h3>
+                                <p>Autenticaci&oacute;n utilizando el lenguaje PHP.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="portfolio-sec-wrap">
+                        <img class="img-responsive" src="assets/img/portfolio/small/8.png" alt="" />
+                        <div class="overlay">
+                            <div class="portfolio-sec-inner">
+                                <h3>CRUD con PHP</h3>
+                                <p>Utilizando de base el template AdminLTE3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <!-- Grid container -->
+    </section>
+    <!-- PORTFOLIO SECTION END-->
+    <section id="hire-sec">
+        <div class="overlay">
+            <div class="container">
+                <div class="row text-center pad-top-bottom wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                        <h1>CONTACTA CONMIGO</h1>
+                        <p>Comunicate conmigo por correo electrónico, WhatsApp o Telegram</p>
+                        <br>
+                    </div>
 
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2021 -
-            <a class="text-white" href="https://github.com/Carloszapata91">Carlos Mario Zapata López</a>
+                </div>
+                <div class="row  move-me wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".4s">
+                    <div class="col-lg-6  col-md-6  col-sm-6">
+                        <form>
+                            <input type="text" class="form-control" required="required" placeholder="Nombre" name="nombre">
+                            <br>
+                            <input type="text" class="form-control" required="required" placeholder="Email" name="email">
+                            <br>
+                            <textarea name="mensaje" id="message" required="required" class="form-control" style="min-height: 100px;" placeholder="Mensaje"></textarea>
+                            <br>
+                            <a href="mailto:Carloszapata91@gmail.com?subject=Contacto%20Portafolio" class="btn custom-btn-one ">CONTACTAR</a>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 col-lg-offset-1  col-md-4  col-md-offset-1 col-sm-4 col-sm-offset-1" id="footer-sec">
+                        <div class="info">
+                            <h3><strong>WhatsApp / Telegram</strong></h3>
+                            <p><i>+57 </i> 319 4171358</p>
+                            <p>&copy; 2021 - Carlos Zapata López</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <!-- Copyright -->
-    </footer>
+    </section>
+    <!-- HIRE SECTION END-->
+    <div class="move-me">
+        <a href="#home-sec" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+    </div>
+    <!-- SCROLL TO TOP SECTION END-->
+
+    <!--  JQUERY CORE SCRIPTS -->
+<script src="assets/js/jquery-1.10.2.js"></script>
+    <!--  BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!--  SCROLL SCRIPTS -->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <!--  WOW ANIMATION SCRIPTS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- EASY PIE CHART SCRIPTS -->
+    <script src="assets/js/jquery.easypiechart.min.js"></script>
+    <!-- PRETTY PHOTO SCRIPTS -->
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <!--  STYLE SWITCHER SCRIPTS -->
+    <!-- <script src="assets/js/styleSwitcher.js"></script> -->
+    <!--  CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/index.js"></script>
+
 
 </body>
-
-<!-- MDB -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
-<!-- JS -->
-<script src="js/main.js"></script>
-
 </html>
